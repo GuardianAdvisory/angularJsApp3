@@ -1,0 +1,69 @@
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\csc.exe
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\csc.exe.config
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\csc.rsp
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\csi.exe
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\csi.rsp
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\System.AppContext.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\vbc.exe
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\vbc.exe.config
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\vbc.rsp
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\angularJsApp.dll.config
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\angularJsApp.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\angularJsApp.pdb
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\obj\Debug\angularJsApp.csprojResolveAssemblyReference.cache
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\obj\Debug\angularJsApp.dll
+C:\Users\Bilal\OneDrive - Bilal Zia & Co\IT Share\angularJsApp\angularJsApp\obj\Debug\angularJsApp.pdb
+C:\angularJsApp\angularJsApp\bin\roslyn\csc.exe
+C:\angularJsApp\angularJsApp\bin\roslyn\csc.exe.config
+C:\angularJsApp\angularJsApp\bin\roslyn\csc.rsp
+C:\angularJsApp\angularJsApp\bin\roslyn\csi.exe
+C:\angularJsApp\angularJsApp\bin\roslyn\csi.rsp
+C:\angularJsApp\angularJsApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\angularJsApp\angularJsApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\angularJsApp\angularJsApp\bin\roslyn\System.AppContext.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\System.Collections.Immutable.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\System.IO.FileSystem.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\angularJsApp\angularJsApp\bin\roslyn\vbc.exe
+C:\angularJsApp\angularJsApp\bin\roslyn\vbc.exe.config
+C:\angularJsApp\angularJsApp\bin\roslyn\vbc.rsp
+C:\angularJsApp\angularJsApp\bin\roslyn\VBCSCompiler.exe
+C:\angularJsApp\angularJsApp\bin\roslyn\VBCSCompiler.exe.config
+C:\angularJsApp\angularJsApp\bin\angularJsApp.dll.config
+C:\angularJsApp\angularJsApp\bin\angularJsApp.dll
+C:\angularJsApp\angularJsApp\bin\angularJsApp.pdb
+C:\angularJsApp\angularJsApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\angularJsApp\angularJsApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\angularJsApp\angularJsApp\obj\Debug\angularJsApp.csprojResolveAssemblyReference.cache
+C:\angularJsApp\angularJsApp\obj\Debug\angularJsApp.csproj.CoreCompileInputs.cache
+C:\angularJsApp\angularJsApp\obj\Debug\angularJsApp.dll
+C:\angularJsApp\angularJsApp\obj\Debug\angularJsApp.pdb
