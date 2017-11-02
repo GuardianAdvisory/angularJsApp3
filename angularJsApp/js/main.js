@@ -227,6 +227,26 @@ MetronicApp.config(['$stateProvider', '$urlRouterProvider', function ($stateProv
                 }]
             }
         })
+        // Fixed Assets
+        .state('fixedAssets', {
+            url: "/fixedAssets",
+            templateUrl: "views/fixed-assets.html",
+            data: { pageTitle: 'Fixed Assets' },
+            controller: "FaController",
+            resolve: {
+                deps: ['$ocLazyLoad', function ($ocLazyLoad) {
+                    return $ocLazyLoad.load({
+                        name: 'MetronicApp',
+                        insertBefore: '#ng_load_plugins_before', // load the above css files before a LINK element with this ID. Dynamic CSS files must be loaded between core and theme css files
+                        files: [
+                            'js/controllers/PapController.js',
+                            '../assets/global/plugins/angularjs/plugins/ui-select/select.min.css',
+                            '../assets/global/plugins/angularjs/plugins/ui-select/select.min.js'
+                        ]
+                    });
+                }]
+            }
+        })
         // AngularJS plugins
         .state('fileupload', {
             url: "/file_upload.html",

@@ -5828,6 +5828,7 @@
     <Content Include="views\datatables\managed.html" />
     <Content Include="views\dropdowns.html" />
     <Content Include="views\file_upload.html" />
+    <Content Include="views\fixed-assets.html" />
     <Content Include="views\form_tools.html" />
     <Content Include="views\general-journal.html" />
     <Content Include="views\pickers.html" />

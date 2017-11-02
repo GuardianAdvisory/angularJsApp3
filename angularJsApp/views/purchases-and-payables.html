@@ -1,6 +1,6 @@
 ﻿<!-- BEGIN PAGE HEADER-->
 <h3 class="page-title">
-    Purchase And Payables
+    Purchases And Payables
     <small>Process</small>
 </h3>
 <div class="page-bar">
@@ -11,7 +11,7 @@
             <i class="fa fa-angle-right"></i>
         </li>
         <li>
-            <a ui-sref="purchases-and-payables">Purchase And Payables</a>
+            <a ui-sref="purchases-and-payables">Purchases And Payables</a>
         </li>
     </ul>
     <div class="page-toolbar">
@@ -66,7 +66,7 @@
             <div class="portlet-title">
                 <div class="caption font-green-sharp">
                     <i class="icon-settings font-green-sharp"></i>
-                    <span class="caption-subject bold uppercase">Purchase and Payables</span>
+                    <span class="caption-subject bold uppercase">Purchases and Payables</span>
                     <span class="caption-helper hide"></span>
                 </div>
                 <div class="actions">
@@ -86,7 +86,7 @@
                             <i class="fa fa-cogs"></i>Purchase Order
                         </div>
                         <div class="tools">
-                            <a href="javascript:;" class="collapse"> </a>
+                            <a href="javascript:;" class="collapse collapse-handle"> </a>
                             <a href="#portlet-config" data-toggle="modal" class="config"> </a>
                             <a href="javascript:;" class="reload"> </a>
                             <a href="javascript:;" class="remove"> </a>
@@ -96,10 +96,10 @@
 
                     <div class="portlet-body">
                         <div ng-repeat="data in PoTables">
+                            <hr class="style-seven" />
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="col-md-4">
-
                                         <div ng-controller="DatepickerPopupDemoCtrl">
                                             <label class="table-font">Date</label>
                                             <p class="input-group" style="margin-bottom:0;">
@@ -111,7 +111,6 @@
                                                 </span>
                                             </p>
                                         </div>
-
                                         <div class=" form-group">
                                             <label class="table-font">Supplier</label>
                                             <select class="form-control">
@@ -120,17 +119,16 @@
                                                 <option>HP</option>
                                                 <option>Lenovo</option>
                                             </select>
+                                            <select  class="form-control" ng-model="selectedOption"
+                                                    ng-options="option.value as option.name for option in options" ng-change="btnSelector(selectedOption)"></select>
+                                            {{selectedOption}}
                                         </div>
-
                                     </div>
                                     <div class="col-md-4">
-
-
                                         <div class=" form-group">
                                             <label class="table-font">PO Number</label>
                                             <input class="form-control" ng-model="Date" />
                                         </div>
-
                                     </div>
                                     <div class="col-md-4">
                                         <div class=" form-group">
@@ -146,15 +144,14 @@
                                                 <option>Umer</option>
                                             </select>
                                         </div>
-
                                     </div>
                                 </div>
-
                             </div>
                             <div class="table-scrollable">
                                 <table class="table table-striped table-bordered table-hover">
                                     <thead>
                                         <tr>
+                                            
                                             <th ng-show="requisitionNoData" scope="col"> Requisition </th>
                                             <th ng-show="productData" scope="col"> Product</th>
                                             <th ng-show="descriptionData" scope="col"> Description</th>
@@ -165,6 +162,8 @@
                                             <th ng-show="amountFcData" scope="col">Amount(FC)</th>
                                             <th ng-show="exchangeRateData" scope="col">Exchange Rate</th>
                                             <th ng-show="amountLcData" scope="col">Amount(LC)</th>
+                                            <th class="this-th"></th>
+                                          
                                             <th ng-show="customerData" scope="col">Customer </th>
                                             <th ng-show="employeeData" scope="col"> Employee </th>
                                             <th ng-show="shareholderData" scope="col">Shareholder</th>
@@ -177,7 +176,12 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td ng-repeat="data in TableNames" ng-show="{{data}}"> <input class="form-control" ng-model="model1" /> </td>
+                                            <td ng-repeat="data in TableNames" ng-show="{{data}}">
+                                                <input class="form-control" ng-model="model1" />
+                                                <button class="btn btn-danger" ng-click="removeTable(data)"><i class="glyphicon glyphicon-trash"></i></button>
+                                            </td>
+                                     
+                                       
                                         </tr>
                                         <tr>
                                             <td ng-repeat="data in TableNames" ng-show="{{data}}"> <input class="form-control" ng-model="model1" /> </td>
@@ -243,6 +247,8 @@
                                     <i class="icon-plus"></i>
                                 </div>
                                 <button class="btn yellow pull-right">Record Invoice</button>
+                                <button class="btn pull-right purple post-btn">Post</button>
+
                             </div>
                         </div>
                     </div>
@@ -256,7 +262,7 @@
                             <i class="fa fa-cogs"></i>Transaction Recording
                         </div>
                         <div class="tools">
-                            <a href="javascript:;" class="collapse"> </a>
+                            <a id="cll" href="javascript:;" class="collapse collapse-handle"> </a>
                             <a href="#portlet-config" data-toggle="modal" class="config"> </a>
                             <a href="javascript:;" class="reload"> </a>
                             <a href="javascript:;" class="remove"> </a>
@@ -280,7 +286,6 @@
                                                 </span>
                                             </p>
                                         </div>
-
                                         <div class=" form-group">
                                             <label class="table-font">Transaction Type</label>
                                             <select class="form-control">
@@ -296,7 +301,6 @@
                                                 <option>Rent</option>
                                             </select>
                                         </div>
-
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                                         <div class="form-group">
@@ -316,7 +320,6 @@
                                             <label class="table-font">Total GST</label>
                                             <input class="form-control" ng-model="Date" />
                                         </div>
-
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 
@@ -329,7 +332,6 @@
                                                 <option>Umer</option>
                                             </select>
                                         </div>
-
                                         <div class=" form-group">
                                             <label class="table-font">Total Advance Tax </label>
                                             <input class="form-control" ng-model="Date" />
@@ -357,15 +359,14 @@
                                             <th ng-show="tqtyData" scope="col">Quantity</th>
                                             <th ng-show="tmeasuringScaleData" scope="col">Measuring Scale</th>
                                             <th ng-show="trateData" scope="col">Rate</th>
-
                                             <th ng-show="tamountFcData" scope="col">Amount(FC)</th>
                                             <th ng-show="texchangeRateData" scope="col">Exchange Rate</th>
                                             <th ng-show="tamountExTaxData" scope="col">Amount(LC) Excl. Tax</th>
                                             <th ng-show="tfederalExciseDutyData" scope="col">Fedral Excise Duty</th>
                                             <th ng-show="tgstData" scope="col">GST</th>
                                             <th ng-show="tadvanceTaxData" scope="col">Advance Tax</th>
-
                                             <th ng-show="tamountInTaxData" scope="col">Amount(LC) Incl. Tax</th>
+
                                             <th ng-show="tcustomerData" scope="col">Customer </th>
                                             <th ng-show="temployeeData" scope="col"> Employee </th>
                                             <th ng-show="tshareholderData" scope="col"> Shareholder </th>
@@ -381,12 +382,7 @@
                                         <tr>
                                             <td ng-repeat="data in tTableNames" ng-show="{{data}}"> <input class="form-control" ng-model="model1" /> </td>
                                         </tr>
-                                        <tr>
-                                            <td ng-repeat="data in tTableNames" ng-show="{{data}}"> <input class="form-control" ng-model="model1" /> </td>
-                                        </tr>
-                                        <tr>
-                                            <td ng-repeat="data in tTableNames" ng-show="{{data}}"> <input class="form-control" ng-model="model1" /> </td>
-                                        </tr>
+                              
                                         <!--<tr>
                                             <td ng-show="tpurchaseOrderData"> <input class="form-control" ng-model="model1" /> </td>
                                             <td ng-show="tproductData"> <input class="form-control" ng-model="model1" /> </td>
@@ -436,7 +432,9 @@
                                 <div ng-click="TRecordingBtn()" class="toggler tooltips pull-left " style="margin:8px 0 0 20px;" data-container="body" data-placement="left" data-html="true" data-original-title="Click to add more table">
                                     <i class="icon-plus"></i>
                                 </div>
-                                <button class="btn blue pull-right">Pay Invoice</button>
+                                <button style="width:121.5px;" class="btn blue pull-right">Pay Invoice</button>
+                                <button  class="btn pull-right yellow post-btn">Post</button>
+
                             </div>
                         </div>
                     </div>
@@ -450,7 +448,7 @@
                             <i class="fa fa-cogs"></i>Payment
                         </div>
                         <div class="tools">
-                            <a href="javascript:;" class="collapse"> </a>
+                            <a href="javascript:;" class="collapse collapse-handle"> </a>
                             <a href="#portlet-config" data-toggle="modal" class="config"> </a>
                             <a href="javascript:;" class="reload"> </a>
                             <a href="javascript:;" class="remove"> </a>
@@ -566,7 +564,8 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td ng-repeat="pdata in pTableNames" ng-show="{{pdata.data}}"> <input class="form-control" ng-model="pdata.name" /> </td>
+                                            <td ng-repeat="pdata in pTableNames" ng-show="{{pdata.data}}"> <input class="form-control" ng-model="pdata.name" /> 
+                                        
                                         </tr>
                                         <tr>
                                             <td ng-repeat="pdata in pTableNames" ng-show="{{pdata.data}}"> <input class="form-control" ng-model="pdata.name" /> </td>
@@ -584,6 +583,8 @@
                                     <i class="icon-plus"></i>
                                 </div>
                                 <button class="btn yellow pull-right">Record Invoice</button>
+                                <button class="btn pull-right blue post-btn">Post</button>
+
                             </div>
                         </div>
                     </div>
@@ -606,7 +607,7 @@
     <hr />
     <div class="col-md-2 " id="pap-right-bar">
         <div class="panel-group" id="accordion">
-           
+
             <div class="panel panel-default">
                 <div class="panel-heading heading-first">
                     <h4 class="panel-title">
@@ -783,7 +784,6 @@
                             <label><input type="checkbox" ng-model="ppurchaseOrderData" value="">Purchase Order</label>
                         </div>
                         <div>
-                            >
                             <label><input type="checkbox" ng-model="pproductData" value="">Product</label>
                         </div>
                         <div>
@@ -793,70 +793,66 @@
                             <label><input type="checkbox" ng-model="pqtyData" value="">Quantity</label>
                         </div>
                         <div>
+                            <label><input type="checkbox" ng-model="pmeasuringScaleData" value="">Measuring Scale</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="prateData" value="">Rate</label>
+                        </div>
 
-                            <div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pgrossAmountData" value="">Gross Amount</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pdiscountData" value="">Discount</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pnetAmountFcData" value="">Net Amount(FC)</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pexchangeRateData" value="">Exchange Rate</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pnetAmountLcExTaxData" value="">Net Amount(LC) Excl. Tax</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="padvanceTaxData" value="">Advance Tax</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pwithHoldingTaxData" value="">Withholding Tax</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pamountPaidLcData" value="">Amount Paid(LC)</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pbankAccountNoData" value="">Bank Account Number</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pcustomerData" value="">Customer</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pemployeeData" value="">Employee</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pshareholderData" value="">Shareholder</label>
+                        </div>
 
-                                <label><input type="checkbox" ng-model="pmeasuringScaleData" value="">Measuring Scale</label>
-                            </div>
-                            <div>
-                                <label><input type="checkbox" ng-model="prateData" value="">Rate</label>
-                            </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pbeneficiaryDepartmentData" value="">Beneficiary Department</label>
+                        </div>
 
-                            <div>
-                                <label><input type="checkbox" ng-model="pgrossAmountData" value="">Gross Amount</label>
-                            </div>
-                            <div>
-                                <label><input type="checkbox" ng-model="pdiscountData" value="">Discount</label>
-                            </div>
-                            <div>
-                                <label><input type="checkbox" ng-model="pnetAmountFcData" value="">Net Amount(FC)</label>
-                            </div>
-                            <div>
-                                <label><input type="checkbox" ng-model="pexchangeRateData" value="">Exchange Rate</label>
-                            </div>
-                            <div>
-                                <label><input type="checkbox" ng-model="pnetAmountLcExTaxData" value="">Net Amount(LC) Excl. Tax</label>
-                            </div>
-                            <div>
-                                <label><input type="checkbox" ng-model="padvanceTaxData" value="">Advance Tax</label>
-                            </div>
-                            <div>
-                                <label><input type="checkbox" ng-model="pwithHoldingTaxData" value="">Withholding Tax</label>
-                            </div>
-                            <div>
-                                <label><input type="checkbox" ng-model="pamountPaidLcData" value="">Amount Paid(LC)</label>
-                            </div>
-                            <div>
-                                <label><input type="checkbox" ng-model="pbankAccountNoData" value="">Bank Account Number</label>
-                            </div>
-                            <div>
-                                <label><input type="checkbox" ng-model="pcustomerData" value="">Customer</label>
-                            </div>
-                            <div>
-                                <label><input type="checkbox" ng-model="pemployeeData" value="">Employee</label>
-                            </div>
-                            <div>
-                                <label><input type="checkbox" ng-model="pshareholderData" value="">Shareholder</label>
-                            </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pregionData" value="">Region</label>
+                        </div>
 
-                            <div>
-                                <label><input type="checkbox" ng-model="pbeneficiaryDepartmentData" value="">Beneficiary Department</label>
-                            </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pcompanyData" value="">Company</label>
+                        </div>
 
-                            <div>
-                                <label><input type="checkbox" ng-model="pregionData" value="">Region</label>
-                            </div>
-
-                            <div>
-                                <label><input type="checkbox" ng-model="pcompanyData" value="">Company</label>
-                            </div>
-
-                            <div>
-                                <label><input type="checkbox" ng-model="pbusinessLineData" value="">Business Line</label>
-                            </div>
-                            <div>
-                                <label><input type="checkbox" ng-model="pprojectData" value="">Project</label>
-                            </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pbusinessLineData" value="">Business Line</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" ng-model="pprojectData" value="">Project</label>
                         </div>
                     </div>
 
@@ -868,10 +864,12 @@
 <!-- END MAIN CONTENT -->
 <!-- BEGIN MAIN JS-->
 <script>
-    // call any jquery or angularjs code ehre
-</script>
-<!-- BEGIN MAIN JS -->
-<script>
+  // tables collaps handling
+    $(".collapse-handle").click();
+
+    $(".this-th").css("border-right", "1px solid purple");
+
+    //date picker
     function DatepickerPopupDemoCtrl($scope) {
         $scope.today = function () {
             $scope.dt = new Date();
@@ -952,3 +950,4 @@
     }
 
 </script>
+<!-- BEGIN MAIN JS -->

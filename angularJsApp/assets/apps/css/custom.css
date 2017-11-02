@@ -1,5 +1,7 @@
-﻿
-
+﻿/*fixing the scroll bar */
+body {
+    overflow-y: scroll;
+}
 
 /*payment and payables table customization*/
 
@@ -49,6 +51,36 @@
     text-decoration: none;
     color:white;
 }
+
+/*post button*/
+.post-btn {
+    margin: 0 10px 0 0;
+    border-radius: 20px!important;
+}
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: purple;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+    hr.style-seven:before { /* Not really supposed to work, but does */
+        display: block;
+        content: "";
+        height: 30px;
+        margin-top: -31px;
+        border-style: solid;
+        border-color: purple;
+        border-width: 0 0 1px 0;
+        border-radius: 20px;
+    }
+
+
 /*autoSuggest style*/
 
 /*@charset "utf-8";

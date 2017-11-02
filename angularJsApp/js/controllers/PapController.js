@@ -22,6 +22,40 @@ angular.module('MetronicApp').controller('PapController', ['$rootScope', '$scope
         age: 12,
         country: 'Argentina'
     }];
+
+    $scope.options = [
+        {
+            name: 'Dell',
+            value: 'dell'
+        },
+        {
+            name: 'Lenovo',
+            value: 'lenovo'
+        },
+        {
+            name: 'HP',
+            value: 'hp'
+        },
+        {
+            name: 'Sony',
+            value: 'sony'
+        },
+        {
+            name: 'Add New Name',
+            value: 'add new btn'
+        }
+    ];
+    $scope.selectedOption = $scope.options[0].value;
+
+    $scope.btnSelector = function (btnData) {
+        if ('add new btn' == btnData) {
+            // window.location.href = "#";
+        }
+    }
+
+
+
+
     //Tables Naming and Manipulation
     $scope.TableNames = ["requisitionNoData"
         , "productData"
@@ -42,6 +76,7 @@ angular.module('MetronicApp').controller('PapController', ['$rootScope', '$scope
         , "businessLineData"
         , "projectData"
     ];
+
     $scope.tTableNames = ["tinvoiceNoData"
         , "tpurchaseOrderData"
         , "tproductData"
@@ -56,7 +91,6 @@ angular.module('MetronicApp').controller('PapController', ['$rootScope', '$scope
         , "tgstData"
         , "tadvanceTaxData"
         , "tamountInTaxData"
-        , "tcustomerData"
         , "temployeeData"
         , "tshareholderData"
         , "tbeneficiaryDepartmentData"
@@ -64,7 +98,7 @@ angular.module('MetronicApp').controller('PapController', ['$rootScope', '$scope
         , "tcompanyData"
         , "tbusinessLineData"
         , "tprojectData"
-       ];
+    ];
     $scope.pTableNames = [
         { "name": "Invoice", "data": "pinvoiceData" }
         , { "name": "Purchase Order", "data": "ppurchaseOrderData" }
@@ -91,13 +125,13 @@ angular.module('MetronicApp').controller('PapController', ['$rootScope', '$scope
     ];
 
     $scope.PoTables = [
-         new String('po 1')];
+        new String('po 1')];
 
     // PO Table extending control
     $scope.POBtn = function () {
         var c = $scope.PoTables.length + 1;
-            var item = new String('po ' + c)
-            $scope.PoTables.push(item);
+        var item = new String('po ' + c)
+        $scope.PoTables.push(item);
     }
     $scope.TRecordingTables = [
         new String('to 1')];
@@ -117,5 +151,8 @@ angular.module('MetronicApp').controller('PapController', ['$rootScope', '$scope
         var item = new String('pay ' + c)
         $scope.PaymentTables.splice(0, 0, item);
     }
-
+    $scope.removeTable = function (product) {
+        var index = $scope.PoTables.indexOf(product);
+        $scope.PoTables.splice(index, 1);
+    }
 }]);
