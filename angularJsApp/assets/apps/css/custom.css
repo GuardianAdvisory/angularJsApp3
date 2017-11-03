@@ -3,11 +3,14 @@ body {
     overflow-y: scroll;
 }
 
-/*payment and payables table customization*/
 
+.portlet.box.purple > .portlet-title, .portlet.purple, .portlet > .portlet-body.purple {
+    background-color: #0e92ab !important;
+}
+
+/*payment and payables table customization*/
 #pap-right-bar .heading-first {
-    background-color: #8e44ad;
-   
+    background-color: #0e92ab !important;
 }
     #pap-right-bar .heading-first:hover {
         background-color: rgba(142, 68, 173, 0.85)
