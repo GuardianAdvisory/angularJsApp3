@@ -102,3 +102,37 @@ C:\Git Repository\angularJsApp\angularJsApp\obj\Debug\angularJsApp.csprojResolve
 C:\Git Repository\angularJsApp\angularJsApp\obj\Debug\angularJsApp.csproj.CoreCompileInputs.cache
 C:\Git Repository\angularJsApp\angularJsApp\obj\Debug\angularJsApp.dll
 C:\Git Repository\angularJsApp\angularJsApp\obj\Debug\angularJsApp.pdb
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\csc.exe
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\csc.exe.config
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\csc.rsp
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\csi.exe
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\csi.rsp
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\System.AppContext.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\vbc.exe
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\vbc.exe.config
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\vbc.rsp
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\angularJsApp.dll.config
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\angularJsApp.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\angularJsApp.pdb
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\obj\Debug\angularJsApp.csprojResolveAssemblyReference.cache
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\obj\Debug\angularJsApp.dll
+C:\Users\Bilal\Documents\GitHub\angularJsApp3\angularJsApp\obj\Debug\angularJsApp.pdb
