@@ -258,6 +258,7 @@ var Demo = function () {
             Cookies.set('layout-style-option', style);
         }
     };
+    
 
     return {
 
