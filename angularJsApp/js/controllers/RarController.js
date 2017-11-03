@@ -1,5 +1,5 @@
-﻿/* Setup blank page controller */
-angular.module('MetronicApp').controller('PapController', ['$rootScope', '$scope', 'settings', '$http', function ($rootScope, $scope, settings, $http) {
+﻿/* Setup Revenue And Receivable page controller */
+angular.module('MetronicApp').controller('RarController', ['$rootScope', '$scope', 'settings', '$http', function ($rootScope, $scope, settings, $http) {
     $scope.$on('$viewContentLoaded', function () {
         // initialize core components
         App.initAjax();

@@ -4,133 +4,102 @@ body {
 }
 
 
-.portlet.box.purple > .portlet-title, .portlet.purple, .portlet > .portlet-body.purple {
-    background-color: #0e92ab !important;
-}
+
+
 
 /*payment and payables table customization*/
+.portlet.box.purple > .portlet-title, .portlet.purple, .portlet > .portlet-body.purple {
+    background-color: #0e92ab !important;
+    border-color: #0e92ab !important;
+}
+
 #pap-right-bar .heading-first {
     background-color: #0e92ab !important;
 }
+
     #pap-right-bar .heading-first:hover {
         background-color: rgba(142, 68, 173, 0.85)
     }
+
 #pap-right-bar .heading-second {
     background-color: #c49f47;
 }
-#pap-right-bar .heading-second:hover {
-    background-color: rgba(196, 159, 71, 0.85);
-}
+
+    #pap-right-bar .heading-second:hover {
+        background-color: rgba(196, 159, 71, 0.85);
+    }
+
 #pap-right-bar .heading-third {
     background-color: #3598dc;
 }
-#pap-right-bar .heading-third:hover {
-    background-color: rgba(53, 152, 220, 0.85);
-}
-#pap-right-bar .panel-title{
-    color:white;
-    text-align:center;
-}
-#pap-right-bar .panel-title a:hover {
+
+    #pap-right-bar .heading-third:hover {
+        background-color: rgba(53, 152, 220, 0.85);
+    }
+
+#pap-right-bar .panel-title {
     color: white;
+    text-align: center;
 }
-   
-#pap-right-bar .panel-title a:focus {
-    color: white;
-}
+
+    #pap-right-bar .panel-title a:hover {
+        color: white;
+    }
+
+    #pap-right-bar .panel-title a:focus {
+        color: white;
+    }
 
 #pap-tables .form-group {
     margin-bottom: 0;
 }
 
-.dropdown-menu{
-    min-width:145px !important;
+.dropdown-menu {
+    min-width: 145px !important;
 }
-.table-font{
-    font-weight:bold;
+
+.table-font {
+    font-weight: bold;
 }
 
 .logo-text:hover {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 /*post button*/
 .post-btn {
     margin: 0 10px 0 0;
-    border-radius: 20px!important;
+    background-color: #0e92ab;
+    color: white;
+    width: 60.8px;
 }
 
+    .post-btn:hover {
+        color: white;
+    }
 /* Flaired edges, by Tomas Theunissen */
 
 hr.style-seven {
-    overflow: visible; /* For IE */
-    height: 30px;
-    border-style: solid;
-    border-color: purple;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
+    border-color: #0e92ab;
 }
 
     hr.style-seven:before { /* Not really supposed to work, but does */
-        display: block;
-        content: "";
-        height: 30px;
-        margin-top: -31px;
-        border-style: solid;
-        border-color: purple;
-        border-width: 0 0 1px 0;
-        border-radius: 20px;
+        border-color: #0e92ab;
     }
 
-
-/*autoSuggest style*/
-
-/*@charset "utf-8";
-
-.suggestions-list {
-    position: absolute;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
-    overflow: auto;
-    z-index: 100000;
+hr.invoice-style-seven {
+    border-color: goldenrod;
 }
 
-    .suggestions-list li {
-        color: #000000;
-        padding: 5px 10px;
-        height: 20px;
-        cursor: pointer;
-        background: #ffffff;
-        border-left: 1px solid #ddd;
-        border-right: 1px solid #ddd;
-        width: 200px;
-        height: 30px;
-        border-bottom: 1px solid #000000;
-        vertical-align: middle;
-        -webkit-transition: all 0.2s linear;
-        -moz-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-        transition: all 0.2s linear;
+hr.invoice-style-seven:before { /* Not really supposed to work, but does */
+    border-color: goldenrod;
+}
+
+hr.pay-style-seven {
+    border-color: #60aee4;
+}
+
+    hr.pay-style-seven:before { /* Not really supposed to work, but does */
+        border-color: #60aee4;
     }
-
-        .suggestions-list li:last-child {
-            border-bottom: 1px solid #FFFFFF;
-        }
-
-        .suggestions-list li:hover {
-            background: #eb4800;
-            color: #FFFFFF;
-        }
-
-        .suggestions-list li.active {
-            color: #FFFFFF;
-            background: #eb4800;
-            width: 200px;
-        }
-
-    .suggestions-list:focus {
-        outline: none;
-    }*/

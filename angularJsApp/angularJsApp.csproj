@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="js\controllers\autoCompleteController.js" />
+    <Content Include="js\controllers\RarController.js" />
     <Content Include="packages.config" />
     <Content Include="demo\city_names.json" />
     <Content Include="demo\typeahead_countries.json" />
